@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         tv1 = (TextView)findViewById(R.id.text);
         registerForContextMenu(tv1);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
